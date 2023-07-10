@@ -1,0 +1,58 @@
+form{
+    background-color: aqua;
+    display: block;
+    position: relative;
+     margin-left: 25%;
+     margin-right: 25%;
+    justify-content: left;
+}
+body{
+    position: relative;
+    box-sizing: border-box;
+    background-color: brown;
+}
+#email,#name,#number,#dropdown{
+    left: 0%;
+    width: 80%;
+    margin-bottom: 20px;
+    height: 30px;
+    margin-left: 20px;
+}
+#header{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+}
+label,legend{
+    color: brown;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: unset;
+}
+#submit{
+    width: 80%;
+    height: 30px;
+    background-color: yellow;
+    border: 1px solid blue;
+    border-radius: 20px;
+    color: black;
+    font-size: larger;
+    font-style: oblique;
+    margin: 10px;
+}
+textarea{
+    width: 90%;
+    background-color: azure;
+    height: 40px;
+    bottom: 1px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+#bottom{
+    text-align: center;
+}
+input{
+    margin-left: 20px;
+}
